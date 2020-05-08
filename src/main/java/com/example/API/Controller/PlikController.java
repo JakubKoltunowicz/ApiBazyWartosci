@@ -15,7 +15,7 @@ import java.io.OutputStream;
 @RequestMapping("/api/file")
 public class PlikController {
 
-    private static String SCIEZKA_ZAPISU = "C:\\Users\\kubal\\Desktop\\API\\ZdjecieProduktu";
+    private static String SCIEZKA_ZAPISU = "C:\\Users\\kubal\\Desktop\\ApiBazyWartosci-master\\ZdjecieProduktu";
 
     @PostMapping("")
     public String pobierz(@RequestParam("file") MultipartFile plik) {
